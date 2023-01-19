@@ -1,0 +1,60 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\raiha\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add morgan
+
+PATH: 
+  C:\Users\raiha\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\raiha\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python310\Scripts;C:\Python310;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Program Files\kotlinc\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\php-8.1.7-Win32-vs16-x64;C:\ProgramData\ComposerSetup\bin;C:\Program Files\php-8.1.7-Win32-vs16-x64\php.ini;C:\Program Files\gradle-7.4.2\bin;C:\Program Files (x86)\dotnet;C:\Program Files\Dart\dart-sdk\bin;C:\flutter\bin;C:\Users\raiha\AppData\Local\Microsoft\WindowsApps;C:\Users\raiha\AppData\Roaming\npm;C:\Users\raiha\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Dart\dart-sdk\bin;C:\flutter\bin;C:\Users\raiha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\Bootcamp\project-2\outdoor-rent-server\node_modules\bcrypt\lib\binding\napi-v3\bcrypt_lib.node'
+
+npm manifest: 
+  {
+    "name": "outdoor-rent-server",
+    "description": "",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon app.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/siJawiir/outdoor-rent-server.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/siJawiir/outdoor-rent-server/issues"
+    },
+    "homepage": "https://github.com/siJawiir/outdoor-rent-server#readme",
+    "dependencies": {
+      "bcrypt": "^5.1.0",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.3",
+      "express": "^4.18.2",
+      "jsonwebtoken": "^9.0.0",
+      "multer": "^1.4.5-lts.1",
+      "pg": "^8.8.0",
+      "sequelize": "^6.28.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.20",
+      "sequelize-cli": "^6.5.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
